@@ -4,6 +4,12 @@ import ProjectCard from '@/components/ProjectCard';
 export const metadata = {
   title: 'Творчество — Frogface',
   description: 'Все мои проекты, миры и продукты.',
+  openGraph: {
+    title: 'Творчество — Frogface',
+    description: 'Все мои проекты, миры и продукты.',
+    type: 'website' as const,
+    locale: 'ru_RU',
+  },
 };
 
 export default async function ProjectsPage() {

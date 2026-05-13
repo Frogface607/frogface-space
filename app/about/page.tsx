@@ -6,6 +6,12 @@ import { MDXRemote } from 'next-mdx-remote/rsc';
 export const metadata = {
   title: 'Кто я — Frogface',
   description: 'Серёжа Орлов. Frogface — это я.',
+  openGraph: {
+    title: 'Кто я — Frogface',
+    description: 'Серёжа Орлов. Frogface — это я.',
+    type: 'profile' as const,
+    locale: 'ru_RU',
+  },
 };
 
 export default async function AboutPage() {

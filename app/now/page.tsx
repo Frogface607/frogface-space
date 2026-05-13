@@ -6,6 +6,12 @@ import { MDXRemote } from 'next-mdx-remote/rsc';
 export const metadata = {
   title: 'Сейчас — Frogface',
   description: 'Что я делаю прямо сейчас.',
+  openGraph: {
+    title: 'Сейчас — Frogface',
+    description: 'Что я делаю прямо сейчас.',
+    type: 'article' as const,
+    locale: 'ru_RU',
+  },
 };
 
 export default async function NowPage() {
