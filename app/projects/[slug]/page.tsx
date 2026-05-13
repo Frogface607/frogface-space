@@ -52,7 +52,7 @@ export default async function ProjectPage({
           <a
             href={project.url}
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             className="inline-block mt-6 px-5 py-3 bg-[var(--color-accent-frog)] text-[var(--color-bg-base)] rounded-md font-medium hover:opacity-90 transition"
           >
             открыть →
